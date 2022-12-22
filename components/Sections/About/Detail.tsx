@@ -19,7 +19,7 @@ import {
   SiReact,
   SiWordpress,
   SiNodeDotJs,
-  SiKotlin,
+  SiFlutter,
 } from 'react-icons/si'
 import { GiCoffeePot } from 'react-icons/gi'
 import { IoMdOpen } from 'react-icons/io'
@@ -50,9 +50,13 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
       </Heading>
       <Text variant="description">
         Hello there 👋
-                I&apos;m a Software engineer with over 2 years of Web Development experience.
-                Currently living in Jakarta, Indonesia. My day-to-day job is working with Vue as my main tech stack and React for other stack.
-                I have basic knowledge about java and kotlin for mobile development.
+                I&apos;m Abdul Latif Munjiat. Currently 25 years old 
+                and has more than 2 years of experience in software 
+                development. My day-to-day job is working as 
+                Frontend Developer using Javascript, specifically 
+                VueJS as my main tech stack and also ReactJS for 
+                other stack. Able to optimize SEO also use NuxtJS or 
+                NextJS on the website.
         Here are few technologies that are cup of my{' '}
         <Tooltip
           label="I only drink tea if I needed too!"
@@ -70,11 +74,11 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
         <List spacing={3}>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiVuetify} color={emphasis} fontSize="2em" />
-            Vue (Vuex, NuxtJS)
+            VueJS (Vuex, NuxtJS, Ionic Vue)
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiReact} color={emphasis} fontSize="2em" />
-            React (Redux, NextJS)
+            ReactJS (Redux, NextJS)
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiTypescript} color={emphasis} fontSize="2em" />
@@ -92,8 +96,8 @@ const Detail = ({ onOpen }: ISkillSetModal) => {
             React Native
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
-            <ListIcon as={SiKotlin} color={emphasis} fontSize="2em" />
-            Kotlin
+            <ListIcon as={SiFlutter} color={emphasis} fontSize="2em" />
+            Dart (Flutter)
           </ListItem>
           <ListItem fontSize="small" display="flex" alignItems="center">
             <ListIcon as={SiLaravel} color={emphasis} fontSize="2em" />

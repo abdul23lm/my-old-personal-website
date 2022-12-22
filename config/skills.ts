@@ -1,27 +1,19 @@
 import { IconType } from 'react-icons'
 import {
-  SiDotNet,
   SiJavascript,
-  SiKotlin,
+  SiFlutter,
   SiJava,
   SiTypescript,
   SiNodeDotJs,
-  SiGraphql,
-  SiApollographql,
   SiPhp,
   SiReact,
-  SiNextDotJs,
-  SiRedux,
   SiStyledComponents,
-  SiGhost,
   SiVueDotJs,
   SiDocker,
   SiGooglecloud,
   SiCpanel,
-  SiRancher,
   SiGitlab,
   SiPostgresql,
-  SiMicrosoftsqlserver,
   SiMysql,
   SiMongodb,
   SiRedis,
@@ -32,19 +24,16 @@ import {
   SiGnubash,
   SiVisualstudiocode,
   SiFigma,
-  SiMicrosoft,
-  SiElectron,
   SiLaravel,
   SiTailwindcss,
   SiAdobexd,
   SiAdobeillustrator,
   SiAdobephotoshop,
   SiTrello,
-  SiNotion
+  SiNotion,
+  SiJira,
 } from 'react-icons/si'
-import { BsQuestionSquare } from 'react-icons/bs'
 import { AiOutlineAntDesign } from 'react-icons/ai'
-import { FaSourcetree } from 'react-icons/fa'
 import { IoLogoPwa } from 'react-icons/io5'
 
 export type SkillCategory =
@@ -81,15 +70,15 @@ export const Skills: {
   ],
   frontend: [
     {
-      name: 'Vue (Vuex, NuxtJs)',
+      name: 'Vue (Vuex, NuxtJS, Ionic Vue)',
       icon: SiVueDotJs,
     },
     {
-      name: 'React (Redux, NextJs)',
+      name: 'React (Redux, NextJS)',
       icon: SiReact,
     },
     {
-      name: 'Laravel (Blade)',
+      name: 'PHP (Laravel)',
       icon: SiLaravel,
     },
     {
@@ -184,6 +173,10 @@ export const Skills: {
       name: 'Noiton',
       icon: SiNotion,
     },
+    {
+      name: 'Jira',
+      icon: SiJira,
+    },
   ],
   mobile: [
     {
@@ -199,8 +192,8 @@ export const Skills: {
       icon: SiJava,
     },
     {
-      name: 'Kotlin',
-      icon: SiKotlin,
+      name: 'Flutter',
+      icon: SiFlutter,
     },
   ],
   uiTools: [
